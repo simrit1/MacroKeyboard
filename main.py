@@ -23,9 +23,9 @@ while True:
                 continue
 
     i = 2 #Might be different for your device
+    print(data[i])
     if data[i] != 0: 
         print("Data:", data[i])
-
         if data[i] == 4:
             os.system("start chrome")
         elif data[i] == 5:

@@ -1,4 +1,11 @@
 # MacroKeyboard #
+
+Turns a second keyboard into a fully customizable macro-keyboard
+
+# **WARNING** #
+
+**!!Might make the keyboard you configure for this unusable!!**
+
 ## Setup ##
 
 1. Download [Zadig](https://zadig.akeo.ie/)
@@ -11,3 +18,17 @@
 
 - if everything worked you should see the output array change as you press keys on your second keyboard
 - now you can catch that output and add your own functions and the end of the code
+
+## Adding your own Code ##
+
+At the end of the file you can see 3 example functions, to add a new custom function simply 
+- copy the elif statement
+- append it at the end 
+- change the number to the key you want your function to map to
+- you can find the value of a key by pressing it on your keyboard and watching the output of the script
+
+Afterwards you can just add code you can add the code you want to be executed whenever that key gets pressed
+
+
+
+
